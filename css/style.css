@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Ubuntu;
+  src: url(/fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+@font-face {
+  font-family: Ubuntu-Light;
+  src: url(/fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+#hi {
+  font-family: Ubuntu-Light;
+  font-size: 20px;
+}
+
+#main {
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 130px;
+  padding-bottom: 250px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 75%, rgb(181, 98, 212) 20%);
+  font-family: Ubuntu;
+  font-size: 50px;
+}
+
+#profilepic {
+  border-radius: 50%;
+  width: 20%;
+  height: auto;
+}
+
+#erfahrung {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(181, 98, 212);
+  color: white;
+  font-family: Ubuntu;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.cards {
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: linear-gradient(to top, rgba(0, 0, 0, 0) 80%, rgb(181, 98, 212) 20%);
+}
+
+/*.card {
+    border-style: solid;
+    border-width: 100px;
+}*/
+.cards:hover {
+  transition: 0.5s;
+  width: 100%;
+  box-shadow: 3px 3px 6px 2px #c19ac9;
+  scale: 1.1;
+}
+
+.line2 {
+  color: #000;
+  font-size: 12px;
+}
+
+.second {
+  border-left: #000;
+}/*# sourceMappingURL=style.css.map */
